@@ -1,0 +1,27 @@
+
+.navbar {
+    background-color: rgb(140, 138, 138) !important;
+}
+
+.navbar a, 
+.navbar-brand, 
+.navbar-nav .nav-link {
+    color: rgb(0, 0, 0) !important;
+}
+
+/* Make dropdown menu black */
+.navbar .dropdown-menu {
+    background-color: black !important;
+    border: none; /* Optional: Removes border */
+}
+
+/* Change dropdown item text color */
+.navbar .dropdown-menu .dropdown-item {
+    color: rgb(96, 93, 93) !important;
+}
+
+/* Change dropdown item hover effect */
+.navbar .dropdown-menu .dropdown-item:hover {
+    background-color: #333 !important;
+    color: rgb(56, 56, 56) !important;
+}

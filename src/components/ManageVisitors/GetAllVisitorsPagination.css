@@ -1,0 +1,85 @@
+/* Main Container */
+.mainpage-card {
+  background-color: white;
+  width: 50%; /* Smaller card */
+  padding: 16px;
+  border-radius: 12px; /* Smooth rounded edges */
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Soft shadow */
+}
+
+/* Title */
+.mainpage-title {
+  text-align: center;
+  font-size: 1.25rem;
+  font-weight: bold;
+  margin-bottom: 12px;
+}
+
+/* Table Styles */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px solid #ccc;
+}
+
+/* Table Header */
+thead {
+  background-color: #f3f3f3;
+}
+
+th {
+  padding: 10px;
+  border: 1px solid #ccc;
+  text-align: left;
+  font-size: 0.9rem;
+}
+
+/* Table Body */
+td {
+  padding: 10px;
+  border: 1px solid #ccc;
+  font-size: 0.9rem;
+}
+
+/* Adjust Column Widths */
+th:nth-child(1), td:nth-child(1) { width: 40px; } /* Visitor ID */
+th:nth-child(2), td:nth-child(2) { width: 200px; } /* Name */
+th:nth-child(5), td:nth-child(5) { width: 250px; } /* Purpose */
+th:nth-child(6), td:nth-child(6),
+th:nth-child(7), td:nth-child(7) { width: 160px; } /* Check In/Out */
+
+/* Pagination Controls */
+.pagination-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 16px;
+}
+
+button {
+  padding: 8px 16px;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.3s ease-in-out;
+}
+
+button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+/* Primary Buttons */
+button.bg-blue-500 {
+  background-color: #007bff;
+  color: white;
+}
+
+button.bg-green-500 {
+  background-color: #28a745;
+  color: white;
+}
+
+button:hover:not(:disabled) {
+  opacity: 0.85;
+}

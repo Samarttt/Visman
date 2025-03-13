@@ -1,0 +1,48 @@
+/* DeleteVisitors.css */
+
+.visitor-registration-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background: #f8f9fa; /* Light background */
+  padding-top: 50px;
+}
+
+.visitor-registration-card {
+  background: linear-gradient(to right, #8d8d8d, #807c7c); /* Subtle gradient */
+  padding: 40px;
+  border-radius: 15px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+  width: 700px;
+  text-align: center;
+  margin-right: 250px;
+}
+
+.visitor-registration-title {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+}
+
+.form-group {
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.form-label {
+  font-weight: bold;
+}
+
+.form-control {
+  border-radius: 8px;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+.btn-danger {
+  border-radius: 8px;
+  padding: 10px;
+  font-size: 18px;
+  font-weight: bold;
+}

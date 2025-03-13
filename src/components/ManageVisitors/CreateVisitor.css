@@ -1,0 +1,103 @@
+/* CreateVisitor.css */
+
+.background-container {
+  background-image: url('https://th.bing.com/th/id/OIP.Xux3-onLZ7eL_IUAYzSDIwHaEK?rs=1&pid=ImgDetMain'); /* Replace with your image path */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh; /* Full viewport height */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card1 {
+  background: rgba(255, 255, 255, 0.9);
+  border-radius: 15px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+  width: 1000px; /* Adjust width as needed */
+  margin-left: 200px;
+  margin-right: 0;
+}
+.card {
+  background: rgba(255, 255, 255, 0.9);
+  border-radius: 15px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+  width: 1000px; /* Adjust width as needed */
+  margin-left: 0px;
+  margin-right: 0;
+}
+
+/* Positioning the Login button in the top-right corner */
+.btn-container {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    z-index: 1000; /* Ensure it stays on top */
+  }
+  
+  .btn-primary {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 14px;
+  }
+  
+  /* Additional Styles for the rest of the page */
+  .visitor-registration-container {
+    position: relative; /* Ensures the absolute positioning of the button is relative to this container */
+    padding: 20px;
+  }
+  
+  .visitor-registration-card {
+    /* Add some styles for the form card */
+    margin: auto;
+    width: 50%;
+    padding: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    background-color: #fff;
+  }
+  
+  .visitor-registration-title {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .form-input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  
+  .error-message {
+    color: red;
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+  .visitor-registration-button {
+    width: 100%;
+    padding: 10px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .visitor-registration-button:hover {
+    background-color: #218838;
+  }
+
+

@@ -1,0 +1,180 @@
+/* General Styles */
+body {
+  background-color: #f4f7fc;
+  font-family: 'Inter', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.mainpage-card {
+  width: 90%; /* Increase width */
+  max-width: 1200px; /* Set a larger max width */
+  margin: 40px auto; /* Add top margin to create space from navbar */
+  margin-right: 35px;
+  padding: 25px; /* More padding for better spacing */
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.mainpage-title {
+  font-size: 1.6rem;
+  margin-bottom: 15px;
+}
+
+
+/* Table Styling */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 15px;
+  background: #fff;
+}
+/* Search Bar Input */
+input[type="text"] {
+  font-size: 14px;  /* Smaller font size */
+  padding: 10px;
+  width: 100%;
+  border: 2px solid #ccc;
+  border-radius: 6px;
+  outline: none;
+  transition: border-color 0.3s ease-in-out;
+}
+
+input[type="text"]:focus {
+  border-color: #090909;
+}
+
+td {
+  padding: 12px;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+td:first-child {
+  font-weight: 500;
+  color: #333;
+  width: 35%;
+}
+
+td:last-child {
+  color: #555;
+}
+
+/* Buttons */
+button {
+  padding: 10px 14px;
+  font-size: 14px;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s ease-in-out;
+}
+
+button:hover {
+  opacity: 0.85;
+}
+
+/* Primary (Check-in) Button */
+button:contains("Check In Now") {
+  background: #1a73e8;
+  color: white;
+}
+
+/* Secondary (Check-out) Button */
+button:contains("Check Out Now") {
+  background: #ff5e5e;
+  color: white;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .mainpage-card {
+      width: 90%;
+      padding: 20px;
+  }
+
+  td {
+      padding: 10px;
+  }
+}
+/* Search List Items */
+.search-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  background: white;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  max-height: 200px;
+  overflow-y: auto;
+}
+
+.search-list li {
+  padding: 2px 4px;
+  font-size: 4px;  /* Smaller font size */
+  color: #333;
+  cursor: pointer;
+  transition: background 0.2s ease-in-out;
+}
+
+.search-list li:hover {
+  background: #f1f1f1;
+}
+
+/* Keep "Search Visitor" Fixed */
+.mainpage-title {
+  position: relative;
+  z-index: 10; /* Stays on top */
+  background: white;
+  padding: 10px;
+  font-size: 18px;
+  font-weight: bold;
+  border-bottom: 1px solid #ddd;
+  text-align: left;
+}
+
+/* Search Input Styling */
+.auto-complete-search {
+  width: 100%;
+  padding: 8px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Search List Container */
+.search-list-container {
+  position: absolute;
+  width: 100%;
+  max-height: 250px;
+  overflow-y: auto;
+  background: white;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-top: 5px;
+}
+
+/* Table for Search Results */
+.search-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 12px; /* Smaller font size */
+}
+
+.search-table th,
+.search-table td {
+  padding: 8px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+.search-table th {
+  background: #f8f8f8;
+  font-weight: bold;
+}
+
+.search-table tr:hover {
+  background: #f1f1f1;
+  cursor: pointer;
+}
